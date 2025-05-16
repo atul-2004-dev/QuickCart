@@ -1,6 +1,7 @@
 import { addressDummyData } from "@/assets/assets";
 import { useAppContext } from "@/context/AppContext";
 import React, { useEffect, useState } from "react";
+import toast from "react-hot-toast";
 
 const OrderSummary = () => {
 
@@ -20,6 +21,16 @@ const OrderSummary = () => {
   };
 
   const createOrder = async () => {
+
+      try {
+        if(!selectedAddress){
+          return toast.error('Please address')
+        }
+      } catch (error) {
+        
+      }
+      toast.success('Success Puchase')
+     router.push('/order-placed')
 
   }
 
