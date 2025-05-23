@@ -1,6 +1,6 @@
 # 🛒 Quick Cart
 
-**Quick Cart** is a modern and responsive e-commerce web application built with **Next.js**, **MongoDB**, and **Clerk Authentication**. It provides a seamless shopping experience with user authentication, product browsing, and cart management features.
+**Quick Cart** is a modern and responsive E-Commerce web application built with **Next.js**, **MongoDB**, and **Clerk Authentication**. It provides a seamless shopping experience with user authentication, product browsing, and cart management features.
 
 ## 🚀 Demo
 
